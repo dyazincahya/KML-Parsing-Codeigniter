@@ -1,6 +1,6 @@
 # KML-Parsing-Codeigniter
 
-Example : 
+### Example : 
 
 function ex_parsing_kml(){
     $this->load->helper('xml');
