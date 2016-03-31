@@ -3,7 +3,7 @@
 ### Example : 
 
 function ex_parsing_kml(){
-    $this->load->helper('xml');
+    	$this->load->helper('xml');
 	$file = file.kml;
   		
   	$xmlRaw = file_get_contents($file);
