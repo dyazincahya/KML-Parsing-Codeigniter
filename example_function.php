@@ -1,6 +1,6 @@
 function ex_parsing_kml(){
     $this->load->helper('xml');
-	$file = file.kml;
+	$file = sample_file.KML;
   		
   	$xmlRaw = file_get_contents($file);
 	$this->load->library('simplexml');
