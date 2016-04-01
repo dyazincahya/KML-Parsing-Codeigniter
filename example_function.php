@@ -39,7 +39,7 @@ function ex_parsing_kml(){
 			}
 		};
 		$this->db->set('coordinates',"ST_GeomFromText('POLYGON((".implode(',',$coordinates)."))',4326)",false);
-		$this->db->insert('site_bwa', $data);
+		$this->db->insert('kml_pg', $data);
 		*/
 	}
 }
